@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alert" xml:space="preserve">
+    <value>Звук Алерта</value>
+    <comment>Имя звукового файла для Алерта</comment>
+  </data>
+  <data name="ColorBuy" xml:space="preserve">
+    <value>бар Покупок</value>
+    <comment>Цвет бара Покупателя</comment>
+  </data>
+  <data name="ColorN" xml:space="preserve">
+    <value>бар Нейтральный</value>
+    <comment>Цвет нейтрального бара</comment>
+  </data>
+  <data name="ColorSell" xml:space="preserve">
+    <value>бар Продаж</value>
+    <comment>Цвет бара Продавца</comment>
+  </data>
+  <data name="Diapazon" xml:space="preserve">
+    <value>Интервал (слева и справа от бара)</value>
+    <comment>Фракталы</comment>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Смещение Метки</value>
+    <comment>Расположение метки относительно бара</comment>
+  </data>
+  <data name="FilterOIDw" xml:space="preserve">
+    <value>Фильтр -ОИ</value>
+  </data>
+  <data name="FilterOIUp" xml:space="preserve">
+    <value>Фильтр +ОИ</value>
+  </data>
+  <data name="FilterOn" xml:space="preserve">
+    <value>Вкл. Фильтр</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="OnOff" xml:space="preserve">
+    <value>Вкл. Индикатор</value>
+    <comment>Включение и отключение индикатора</comment>
+  </data>
+  <data name="SetNum" xml:space="preserve">
+    <value>Язык чисел</value>
+  </data>
+  <data name="ShowBox" xml:space="preserve">
+    <value>Зона коррекции</value>
+    <comment>Для Циклов</comment>
+  </data>
+  <data name="ShowFibo33" xml:space="preserve">
+    <value>Луч Фибо</value>
+    <comment>Для Циклов</comment>
+  </data>
+  <data name="ShowInfo" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="ShowLVLs" xml:space="preserve">
+    <value>Уровни</value>
+    <comment>1000</comment>
+  </data>
+  <data name="ShowMaxV" xml:space="preserve">
+    <value>Макс. Объём</value>
+    <comment>Максимальный горизонтальный объём в баре</comment>
+  </data>
+  <data name="ShowNum" xml:space="preserve">
+    <value>Показывать Язык чисел</value>
+  </data>
+  <data name="ShowOI" xml:space="preserve">
+    <value>ОИ</value>
+    <comment>1000</comment>
+  </data>
+  <data name="ShowPit" xml:space="preserve">
+    <value>Уровень Pit</value>
+    <comment>Уровень Pit в баре (Из XTick)</comment>
+  </data>
+  <data name="ShowStatus" xml:space="preserve">
+    <value>Статус</value>
+    <comment>1000</comment>
+  </data>
+  <data name="ShowTrend" xml:space="preserve">
+    <value>Линия Волны</value>
+    <comment>Для Циклов</comment>
+  </data>
+  <data name="SplitOI" xml:space="preserve">
+    <value>Делитель ОИ</value>
+  </data>
+  <data name="TransparentBG" xml:space="preserve">
+    <value>Прозрачный фон Зоны коррекции</value>
+    <comment>Для Циклов</comment>
+  </data>
+  <data name="UseAlert" xml:space="preserve">
+    <value>Алерт</value>
+    <comment>Включение и отключение Алерта (Оповещения)</comment>
+  </data>
+  <data name="UseAlert5" xml:space="preserve">
+    <value>Алерт за 5 минут</value>
+  </data>
+  <data name="VolUp" xml:space="preserve">
+    <value>Растущий Объем</value>
+    <comment>Учитывать растущий объём</comment>
+  </data>
+</root>
